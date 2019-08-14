@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-import json
 from datetime import timedelta, datetime
 import uuid
 from django.db import models
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from momo.utils import disburse, collect, transaction_status, worker
+from momo.utils import disburse, collect, worker
 
 
 # Create your models here.
