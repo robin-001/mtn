@@ -8,7 +8,7 @@ django-compat==1.0.15
 idna==2.8
 kombu==4.6.3
 mysql-connector-python==8.0.17
-protobuf==3.9.1
+protobuf==3.18.3
 pytz==2019.2
 requests==2.22.0
 six==1.12.0
